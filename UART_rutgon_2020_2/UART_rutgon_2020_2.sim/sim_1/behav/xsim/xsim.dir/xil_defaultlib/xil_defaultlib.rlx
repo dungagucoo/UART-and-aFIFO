@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sim_1/new/tb_connect_UART_RX.vhd,1701524825,vhdl,,,,tb_connect_uart_rx,,,,,,,,
+D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd,1701525002,vhdl,,,,fsm_rx,,,,,,,,
+D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd,1702788773,vhdl,,,,connect_uart_rx,,,,,,,,
+D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd,1701505040,vhdl,,,,counter,,,,,,,,
+D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/freq_division.vhd,1701488049,vhdl,,,,freq_division,,,,,,,,
+D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/reg.vhd,1701488664,vhdl,,,,reg,,,,,,,,
+D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/shifter.vhd,1701502105,vhdl,,,,shifter,,,,,,,,
+D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

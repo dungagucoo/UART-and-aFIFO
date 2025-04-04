@@ -1,0 +1,648 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Dec 17 03:32:00 2023
+# Process ID: 28328
+# Current directory: D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7664 D:\Vivado\_Bai_tap\CSTT\UART_rutgon_2020_2\UART_rutgon_2020_2.xpr
+# Log file: D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/vivado.log
+# Journal file: D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1141.762 ; gain = 1.906
+update_compile_order -fileset sources_1
+generate_target all [get_files D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Wrote  : <D:\Vivado\_Bai_tap\CSTT\UART_rutgon_2020_2\UART_rutgon_2020_2.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block connect_UART_RX_0 .
+Exporting to file d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/synth/design_1.hwdef
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:21 . Memory (MB): peak = 1308.062 ; gain = 162.758
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_connect_UART_RX_0_0_synth_1
+[Sun Dec 17 03:36:20 2023] Launched design_1_connect_UART_RX_0_0_synth_1...
+Run output will be captured here: D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.runs/design_1_connect_UART_RX_0_0_synth_1/runme.log
+wait_on_run design_1_connect_UART_RX_0_0_synth_1
+[Sun Dec 17 03:36:21 2023] Waiting for design_1_connect_UART_RX_0_0_synth_1 to finish...
+[Sun Dec 17 03:36:26 2023] Waiting for design_1_connect_UART_RX_0_0_synth_1 to finish...
+[Sun Dec 17 03:36:31 2023] Waiting for design_1_connect_UART_RX_0_0_synth_1 to finish...
+[Sun Dec 17 03:36:36 2023] Waiting for design_1_connect_UART_RX_0_0_synth_1 to finish...
+[Sun Dec 17 03:36:46 2023] Waiting for design_1_connect_UART_RX_0_0_synth_1 to finish...
+[Sun Dec 17 03:36:56 2023] Waiting for design_1_connect_UART_RX_0_0_synth_1 to finish...
+[Sun Dec 17 03:37:06 2023] Waiting for design_1_connect_UART_RX_0_0_synth_1 to finish...
+[Sun Dec 17 03:37:16 2023] Waiting for design_1_connect_UART_RX_0_0_synth_1 to finish...
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+[Sun Dec 17 03:37:26 2023] Interrupt received
+
+*** Running vivado
+    with args -log design_1_connect_UART_RX_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_connect_UART_RX_0_0.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source design_1_connect_UART_RX_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1162.707 ; gain = 0.000
+Command: synth_design -top design_1_connect_UART_RX_0_0 -part xc7a35ticsg324-1L -mode out_of_context
+Starting synth_design
+WARNING: [IP_Flow 19-3571] IP 'design_1_connect_UART_RX_0_0' is restricted:
+* Module reference is stale and needs refreshing.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25840
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1215.316 ; gain = 52.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_connect_UART_RX_0_0' [d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/ip/design_1_connect_UART_RX_0_0/synth/design_1_connect_UART_RX_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'connect_UART_RX' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:19]
+	Parameter N_DIV bound to: 652 - type: integer 
+	Parameter N_DATA bound to: 8 - type: integer 
+	Parameter N_CNT bound to: 4 - type: integer 
+	Parameter N_BIT bound to: 4 - type: integer 
+	Parameter N bound to: 652 - type: integer 
+INFO: [Synth 8-3491] module 'freq_division' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/freq_division.vhd:4' bound to instance 'div_clk' of component 'freq_division' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'freq_division' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/freq_division.vhd:15]
+	Parameter N bound to: 652 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'freq_division' (1#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/freq_division.vhd:15]
+	Parameter N_CNT bound to: 4 - type: integer 
+	Parameter N_BIT bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'FSM_RX' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:4' bound to instance 'FSM_UART_RX' of component 'FSM_RX' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'FSM_RX' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:19]
+	Parameter N_CNT bound to: 4 - type: integer 
+	Parameter N_BIT bound to: 4 - type: integer 
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd:6' bound to instance 'sample_counter' of component 'counter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'counter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd:16]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter' (2#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd:16]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd:6' bound to instance 'bit_counter' of component 'counter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'FSM_RX' (3#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:19]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'shifter' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/shifter.vhd:4' bound to instance 'shifter_RX' of component 'shifter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'shifter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/shifter.vhd:15]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shifter' (4#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/shifter.vhd:15]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/reg.vhd:4' bound to instance 'Data_reg' of component 'reg' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:107]
+INFO: [Synth 8-638] synthesizing module '\reg ' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/reg.vhd:15]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module '\reg ' (5#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/reg.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'connect_UART_RX' (6#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:19]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_connect_UART_RX_0_0' (7#1) [d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/ip/design_1_connect_UART_RX_0_0/synth/design_1_connect_UART_RX_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1271.000 ; gain = 108.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1271.000 ; gain = 108.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1271.000 ; gain = 108.293
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1271.000 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1363.391 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.075 . Memory (MB): peak = 1363.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1363.391 ; gain = 200.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1363.391 ; gain = 200.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1363.391 ; gain = 200.684
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'FSM_RX'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                   start |                              010 |                               01
+            receive_data |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'FSM_RX'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1363.391 ; gain = 200.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input    9 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 5     
+	   3 Input    1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1363.391 ; gain = 200.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1363.391 ; gain = 200.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1363.391 ; gain = 200.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1384.441 ; gain = 221.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+wait_on_run: Time (s): cpu = 00:00:08 ; elapsed = 00:01:05 . Memory (MB): peak = 1308.809 ; gain = 0.746
+INFO: [Common 17-344] 'wait_on_run' was cancelled
+ERROR: [Vivado 12-4146] Open Elaborated Design failed due to the following error:
+ERROR: [Common 17-69] Command failed: 
+
+set_property top connect_UART_RX [current_fileset]
+set_property top_lib xil_defaultlib [current_fileset]
+set_property top_arch Behavioral [current_fileset]
+set_property top_file {D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd} [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35ticsg324-1L
+Top: connect_UART_RX
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1710.527 ; gain = 237.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'connect_UART_RX' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:19]
+	Parameter N_DIV bound to: 652 - type: integer 
+	Parameter N_DATA bound to: 8 - type: integer 
+	Parameter N_CNT bound to: 4 - type: integer 
+	Parameter N_BIT bound to: 4 - type: integer 
+	Parameter N bound to: 652 - type: integer 
+INFO: [Synth 8-3491] module 'freq_division' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/freq_division.vhd:4' bound to instance 'div_clk' of component 'freq_division' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'freq_division' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/freq_division.vhd:15]
+	Parameter N bound to: 652 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'freq_division' (1#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/freq_division.vhd:15]
+	Parameter N_CNT bound to: 4 - type: integer 
+	Parameter N_BIT bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'FSM_RX' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:4' bound to instance 'FSM_UART_RX' of component 'FSM_RX' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'FSM_RX' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:19]
+	Parameter N_CNT bound to: 4 - type: integer 
+	Parameter N_BIT bound to: 4 - type: integer 
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd:6' bound to instance 'sample_counter' of component 'counter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'counter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd:16]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter' (2#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd:16]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/counter.vhd:6' bound to instance 'bit_counter' of component 'counter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'FSM_RX' (3#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd:19]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'shifter' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/shifter.vhd:4' bound to instance 'shifter_RX' of component 'shifter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'shifter' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/shifter.vhd:15]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shifter' (4#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/shifter.vhd:15]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/reg.vhd:4' bound to instance 'Data_reg' of component 'reg' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:107]
+INFO: [Synth 8-638] synthesizing module '\reg ' [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/reg.vhd:15]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module '\reg ' (5#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/reg.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'connect_UART_RX' (6#1) [D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd:19]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1760.848 ; gain = 287.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1778.676 ; gain = 305.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1778.676 ; gain = 305.234
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1778.676 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_0'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[7]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[6]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[5]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[4]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[3]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[2]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[1]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[0]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_0'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[0]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[1]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[2]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[3]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[4]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[5]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[6]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_out_0[7]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Rx_0'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Rx_0'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst_n_0[0]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst_n_0[0]'. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/connect_UART_RX_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/connect_UART_RX_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1875.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1990.219 ; gain = 516.777
+22 Infos, 22 Warnings, 22 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1990.219 ; gain = 642.863
+ipx::package_project -root_dir D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/./../ip_repo -vendor xilinx.com -library user -taxonomy /UserIP -module design_1 -import_files
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'design_1' - hence not re-generating.
+WARNING: [IP_Flow 19-4963] design_1_ila_0_0 has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:arty-a7-35:part0:1.1'
+INFO: [IP_Flow 19-7067] Note that bus interface 'CLK.CLK_0' has a fixed FREQ_HZ of '100000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+WARNING: [IP_Flow 19-5661] Bus Interface 'CLK.CLK_0' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+open_bd_design {D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:module_ref:connect_UART_RX:1.0 - connect_UART_RX_0
+Successfully read diagram <design_1> from block design file <D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 2081.398 ; gain = 26.152
+copy_bd_objs /  [get_bd_cells {connect_UART_RX_0}]
+save_bd_design
+Wrote  : <D:\Vivado\_Bai_tap\CSTT\UART_rutgon_2020_2\UART_rutgon_2020_2.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_connect_UART_RX' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_connect_UART_RX_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/FSM_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FSM_RX'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/VHDL ver2022.2/UART_RX_rut_gon/UART_rut_gon.srcs/sources_1/new/connect_UART_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'connect_UART_RX'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+"xelab -wto 5c063db8d4d64e0293229a27671b182d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot tb_connect_UART_RX_behav xil_defaultlib.tb_connect_UART_RX -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 5c063db8d4d64e0293229a27671b182d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot tb_connect_UART_RX_behav xil_defaultlib.tb_connect_UART_RX -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.freq_division [\freq_division(n=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FSM_RX [fsm_rx_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.connect_UART_RX [\connect_UART_RX(n_div=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.tb_connect_uart_rx
+Built simulation snapshot tb_connect_UART_RX_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim/xsim.dir/tb_connect_UART_RX_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Dec 17 11:53:09 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2148.496 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_connect_UART_RX_behav -key {Behavioral:sim_1:Functional:tb_connect_UART_RX} -tclbatch {tb_connect_UART_RX.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/design_1.protoinst for the following reason(s):
+There are no instances of module "design_1" in the design.
+
+Time resolution is 1 ps
+source tb_connect_UART_RX.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_connect_UART_RX_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 2178.191 ; gain = 29.695
+run 10 us
+run all
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_connect_UART_RX' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_connect_UART_RX_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.sim/sim_1/behav/xsim'
+"xelab -wto 5c063db8d4d64e0293229a27671b182d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot tb_connect_UART_RX_behav xil_defaultlib.tb_connect_UART_RX -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 5c063db8d4d64e0293229a27671b182d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot tb_connect_UART_RX_behav xil_defaultlib.tb_connect_UART_RX -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/design_1.protoinst for the following reason(s):
+There are no instances of module "design_1" in the design.
+
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2246.035 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_bd_design [get_bd_designs design_1]
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.590 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'dbg_hub' was not found. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:29]
+Finished Parsing XDC File [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_connect_UART_RX_0_0' instantiated as 'design_1_i/connect_UART_RX_0' [d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/synth/design_1.v:32]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_ila_0_0' instantiated as 'design_1_i/ila_0' [d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/synth/design_1.v:37]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.590 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 3491.590 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 93 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Constraints 18-5170] The checkpoint was created with non-default parameter values which do not match the current Vivado settings.  Mismatching parameters are:
+  tcl.collectionResultDisplayLimit
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.385 . Memory (MB): peak = 3491.590 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.388 . Memory (MB): peak = 3491.590 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3491.590 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 46 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 40 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.590 ; gain = 0.000
+open_bd_design {D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:module_ref:connect_UART_RX:1.0 - connect_UART_RX_0
+Adding component instance block -- xilinx.com:module_ref:connect_UART_RX:1.0 - connect_UART_RX_1
+Successfully read diagram <design_1> from block design file <D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/sources_1/bd/design_1/design_1.bd>
+create_bd_cell -type module -reference counter counter_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clock_enable' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+WARNING: [IP_Flow 19-3157] Bus Interface 'rst_n': Bus parameter POLARITY is ACTIVE_LOW but port 'rst_n' is not *resetn - please double check the POLARITY setting.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clock_enable' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [IP_Flow 19-3571] IP 'design_1_counter_0_0' is restricted:
+* Detected changes to module reference file(s).
+create_bd_cell -type module -reference shifter shifter_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+WARNING: [IP_Flow 19-3157] Bus Interface 'rst_n': Bus parameter POLARITY is ACTIVE_LOW but port 'rst_n' is not *resetn - please double check the POLARITY setting.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [IP_Flow 19-3571] IP 'design_1_shifter_0_0' is restricted:
+* Detected changes to module reference file(s).
+undo
+INFO: [Common 17-17] undo 'create_bd_cell -type module -reference shifter shifter_0'
+undo
+INFO: [Common 17-17] undo 'create_bd_cell -type module -reference counter counter_0'
+delete_bd_objs [get_bd_cells connect_UART_RX_1]
+create_bd_cell -type module -reference shifter shifter_0
+WARNING: [IP_Flow 19-3571] IP 'design_1_shifter_0_1' is restricted:
+* Detected changes to module reference file(s).
+create_bd_cell -type module -reference freq_division freq_division_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [IP_Flow 19-3571] IP 'design_1_freq_division_0_0' is restricted:
+* Detected changes to module reference file(s).
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.590 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'dbg_hub' was not found. [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc:29]
+Finished Parsing XDC File [D:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.srcs/constrs_1/new/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_connect_UART_RX_0_0' instantiated as 'design_1_i/connect_UART_RX_0' [d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/synth/design_1.v:32]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_ila_0_0' instantiated as 'design_1_i/ila_0' [d:/Vivado/_Bai_tap/CSTT/UART_rutgon_2020_2/UART_rutgon_2020_2.gen/sources_1/bd/design_1/synth/design_1.v:37]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.590 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3491.590 ; gain = 0.000
+check_timing -verbose -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+report_utilization -name utilization_1
+current_design impl_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 18 06:30:57 2023...
