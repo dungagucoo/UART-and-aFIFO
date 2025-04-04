@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 31 17:03:39 2024
+# Process ID: 20628
+# Current directory: D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21820 D:\Vivado\_Bai_tap\CSTT\UART_TX_rut_gon_2020_2\UART_TX_rut_gon_2020_2.xpr
+# Log file: D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/vivado.log
+# Journal file: D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type timing
+source tb_FSM_TX.tcl
+launch_simulation
+source tb_FSM_TX.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top connect_UART_TX [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top_arch Behavioral [get_filesets sim_1]
+set_property top_file D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.srcs/sources_1/new/connect_UART_TX.vhd [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+close_sim
+close_sim
+update_compile_order -fileset sim_1
+launch_simulation
+source connect_UART_TX.tcl
+close_sim
+launch_simulation
+source connect_UART_TX.tcl
+close_sim

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Dec 28 13:30:38 2024
+# Process ID: 17292
+# Current directory: D:/_Old files/Vivado/Bai_tap_vitis/CSTT/UART_TX_rut_gon_2020_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4496 D:\_Old files\Vivado\Bai_tap_vitis\CSTT\UART_TX_rut_gon_2020_2\UART_TX_rut_gon_2020_2.xpr
+# Log file: D:/_Old files/Vivado/Bai_tap_vitis/CSTT/UART_TX_rut_gon_2020_2/vivado.log
+# Journal file: D:/_Old files/Vivado/Bai_tap_vitis/CSTT/UART_TX_rut_gon_2020_2\vivado.jou
+# Running On: DUCDUNG, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 16957 MB
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {D:/_Old files/Vivado/Bai_tap_vitis/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.srcs/sim_1/new/tb_FSM_TX.vhd,1701524367,vhdl,,,,tb_fsm_tx,,,,,,,,
+D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.srcs/sources_1/new/FSM_TX.vhd,1701524272,vhdl,,,,fsm_tx,,,,,,,,
+D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.srcs/sources_1/new/connect_UART_TX.vhd,1701515657,vhdl,,,,connect_uart_tx,,,,,,,,
+D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.srcs/sources_1/new/counter.vhd,1701524235,vhdl,,,,counter,,,,,,,,
+D:/Vivado/_Bai_tap/CSTT/UART_TX_rut_gon_2020_2/UART_TX_rut_gon_2020_2.srcs/sources_1/new/freq_division.vhd,1701505008,vhdl,,,,freq_division,,,,,,,,
