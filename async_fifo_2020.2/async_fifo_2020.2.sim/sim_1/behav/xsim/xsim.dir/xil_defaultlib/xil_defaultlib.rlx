@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sim_1/new/A_FIFO_tb.sv,1702040241,systemVerilog,,,,a_FIFO_tb,,uvm,,,,,,
+D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sim_1/new/top.sv,1701014229,systemVerilog,,,,top,,uvm,,,,,,
+D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv,1702033668,systemVerilog,,D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sim_1/new/A_FIFO_tb.sv,,A_FIFO;cfg_sta;csv_afifo;dstm;fifo_stalvl,,uvm,,,,,,

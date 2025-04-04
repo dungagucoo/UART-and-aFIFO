@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Dec 21 15:41:14 2023
+# Process ID: 21812
+# Current directory: D:/Vivado/Bao cao/do an 2/async_fifo_2020.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6260 D:\Vivado\Bao cao\do an 2\async_fifo_2020.2\async_fifo_2020.2.xpr
+# Log file: D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/vivado.log
+# Journal file: D:/Vivado/Bao cao/do an 2/async_fifo_2020.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 31 16:46:17 2024
+# Process ID: 5184
+# Current directory: D:/Vivado/Bao cao/do an 2/async_fifo_2020.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13192 D:\Vivado\Bao cao\do an 2\async_fifo_2020.2\async_fifo_2020.2.xpr
+# Log file: D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/vivado.log
+# Journal file: D:/Vivado/Bao cao/do an 2/async_fifo_2020.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.xpr}
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'D:/Vivado/SystemVerilog'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'D:/Vivado/done_systemverilog/FSM_moore_001/ver2018.3/aFIFO/DUNG/AppData/Roaming/Xilinx/Vivado/ver2018.3/2.3_freq_division/ver2018.3/FSM_11011_moore_mealy/DUNG/AppData/Roaming/Xilinx/Vivado/ver2018.3/2.1_count_down/ver2018.3/2.2_gray_counter/DUNG/AppData/Roaming/Xilinx/Vivado/ver2018.3/2.1_count_down/DUNG/AppData/Roaming/Xilinx/Vivado/DUNG/AppData/Roaming/Xilinx/Vivado/DUNG/AppData/Roaming/Xilinx/Vivado/DUNG/AppData/Roaming/Xilinx/Vivado/ver2018.3/2.1_count_down/DUNG/AppData/Roaming/Xilinx/Vivado/DUNG/AppData/Roaming/Xilinx/Vivado/DUNG/AppData/Roaming/Xilinx/Vivado/DUNG/AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store'.
+Scanning sources...
+Finished scanning sources
+boost::filesystem::directory_iterator::construct: The directory name is invalid: "C:/Users/DUC"
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 31 16:49:20 2024...

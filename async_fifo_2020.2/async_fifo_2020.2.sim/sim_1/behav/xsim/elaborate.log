@@ -1,0 +1,32 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto f6b1948dbded42bbb39fbd739a1ba65d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot a_FIFO_tb_behav xil_defaultlib.a_FIFO_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3529] modport 'master' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:294]
+WARNING: [VRFC 10-3529] modport 'master' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:295]
+WARNING: [VRFC 10-3529] modport 'master' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:296]
+WARNING: [VRFC 10-3529] modport 'master' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:297]
+WARNING: [VRFC 10-3529] modport 'slave' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:298]
+WARNING: [VRFC 10-3529] modport 'master' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:300]
+WARNING: [VRFC 10-3529] modport 'slave' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:301]
+WARNING: [VRFC 10-3529] modport 'slave' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:302]
+WARNING: [VRFC 10-3529] modport 'slave' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:303]
+WARNING: [VRFC 10-3529] modport 'slave' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:304]
+WARNING: [VRFC 10-3529] modport 'slave' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:305]
+WARNING: [VRFC 10-3529] modport 'slave' should not be used in hierarchical reference [D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.srcs/sources_1/new/async_fifo.sv:306]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Vivado/Bao cao/do an 2/async_fifo_2020.2/async_fifo_2020.2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dstm
+Compiling module xil_defaultlib.fifo_stalvl
+Compiling module xil_defaultlib.cfg_sta
+Compiling module xil_defaultlib.csv_afifo(DEPTH=16)
+Compiling module xil_defaultlib.A_FIFO(DEPTH=16)
+Compiling module xil_defaultlib.a_FIFO_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot a_FIFO_tb_behav
